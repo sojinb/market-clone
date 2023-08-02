@@ -35,12 +35,14 @@ main {
 .item-list__info-meta {
   font-size: smaller;
   color: rgba(0, 0, 0, 0.4);
+  padding: 10px 0 10px 0;
 }
 .item-list__info-price {
   font-weight: bold;
 }
 .write-btn {
   background-color: rgb(255, 128, 82);
+  background-color: rgb(255, 126, 79);
   color: white;
   padding: 10px 15px 10px 15px;
   font-size: 15px;
@@ -50,9 +52,6 @@ main {
   right: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   cursor: pointer;
-  transition: all 1s ease-in-out;
-}
-
-..write-btn:hover {
-  background-color: rgba(255, 128, 82, 0.8);
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(255, 126, 79, 0.9);
 }
