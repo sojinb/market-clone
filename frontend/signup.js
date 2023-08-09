@@ -23,7 +23,7 @@ const handleSubmit = async (event) => {
       body: formData,
     });
     const data = await res.json();
-
+    console.log(data);
     if (data === "200") {
       alert("회원가입에 성공했습니다");
       window.location.pathname = "/login.html";
